@@ -113,4 +113,8 @@ footer p {
         max-width: 200px;
         min-width: 100px;
     }
+
+    body {
+        height: 100vh;
+    }
 }

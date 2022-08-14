@@ -113,4 +113,7 @@ footer {
         min-width: 100px;
     }
 
+    body {
+        height: 100vh;
+    }
 }
