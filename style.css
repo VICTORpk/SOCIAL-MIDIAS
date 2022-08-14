@@ -91,9 +91,12 @@ footer p {
     font-family: roboto, cursive;
 }
 
-abbr {
+.Copyright {
+    font-size: x-small;
+}
+
+.Copyright a {
     color: white;
-    text-decoration: underline;
 }
 
 footer {
