@@ -11,13 +11,13 @@
 }
 
 @font-face {
-    font-family: "roboto";
-    src: url(fonts/RobotoCondensed-Regular.ttf) format('opentype');
+    font-family: "Dregular";
+    src: url(fonts/DancingScript-Regular.ttf) format('opentype');
 }
 
 @font-face {
-    font-family: "roboto_bold";
-    src: url(fonts/RobotoCondensed-Bold.ttf) format('opentype');
+    font-family: "Dbold";
+    src: url(fonts/DancingScript-Bold.ttf) format('opentype');
 }
 
 * {
@@ -68,7 +68,7 @@ div.conteudo{
     background-color: var(--cor002);
     color: aliceblue;
     border-radius: 5px;
-    font-family: roboto_bold, cursive;
+    font-family: Dbold, cursive;
 }
 
 .links:hover {
@@ -78,7 +78,7 @@ div.conteudo{
 }
 p {
     margin: 0%;
-    font-family: roboto, cursive;
+    font-family: Dregular, cursive;
 }
 
 footer p {
