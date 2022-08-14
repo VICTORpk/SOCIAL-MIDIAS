@@ -20,6 +20,11 @@
     src: url(fonts/DancingScript-Bold.ttf) format('opentype');
 }
 
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/RobotoCondensed-Regular.ttf) format('opentype');
+}
+
 * {
     --cor001: #2effb6;
     --cor002: #2e66ff;
@@ -83,6 +88,12 @@ p {
 
 footer p {
     color: white;
+    font-family: roboto, cursive;
+}
+
+abbr {
+    color: white;
+    text-decoration: underline;
 }
 
 footer {

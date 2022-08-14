@@ -10,6 +10,21 @@
     100% {color: rgba(0, 0, 0, 0.63);}
 }
 
+@font-face {
+    font-family: "Dregular";
+    src: url(../fonts/DancingScript-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: "Dbold";
+    src: url(../fonts/DancingScript-Bold.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/RobotoCondensed-Regular.ttf) format('opentype');
+}
+
 * {
     --cor001: #2effb6;
     --cor002: #2e66ff;
@@ -67,6 +82,7 @@ main a {
     text-align: center;
     width: 100px;
     border-radius: 10px;
+    font-family: Dregular, cursive;
 }
 
 main a:hover {
@@ -89,6 +105,7 @@ footer {
 
 footer p {
     color: white;
+    font-family: roboto, cursive;
 }
 
 @media (max-width: 376px) {
